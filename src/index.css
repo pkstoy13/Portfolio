@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .box {
+    @apply border-2 border-black mx-8 mt-4 flex  flex-col items-center bg-purple-200;
+  }
+  .box-heading {
+    @apply border-b-2 border-black px-4;
+  }
+}

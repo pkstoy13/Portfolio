@@ -7,6 +7,7 @@ export function Nav() {
       <button className="mr-4">Skills</button>
       <button className="mr-4">Interests</button>
       <button className="mr-4">Contact Me</button>
+      <button className="mr-4">🌚</button>
     </div>
   );
 }
